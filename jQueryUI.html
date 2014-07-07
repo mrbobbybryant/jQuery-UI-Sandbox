@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)file:///Users/bobbybryant/Downloads/jquery-ui-1.11.0/index.html# -->
+<html lang="us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>jQuery UI Examples</title>
+		<link href="file:///Users/bobbybryant/Downloads/jquery-ui-1.11.0/jquery-ui.css" rel="stylesheet">
+
+		<style>
+			
+			#menu{
+				width:150px;
+			}
+			#accordion-menu {
+				width:150px;
+			}
+			.ui-accordion-content {
+				padding: 0px !important;
+			}
+			.ui-accordion-header-icon {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<button id="opener">Open Window</button>
+		<div id="faq" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+			<h2 class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-id-2" aria-controls="ui-id-3" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-plus"></span>This is a tile</h2>
+			<p class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-id-3" aria-labelledby="ui-id-2" role="tabpanel" aria-hidden="true" style="display: none; height: 132px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<h2 class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-id-4" aria-controls="ui-id-5" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-plus"></span>This is a tile</h2>
+			<p class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-id-5" aria-labelledby="ui-id-4" role="tabpanel" aria-hidden="true" style="display: none; height: 132px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<h2 class="ui-accordion-header ui-state-default ui-accordion-header-active ui-state-active ui-corner-top ui-accordion-icons" role="tab" id="ui-id-6" aria-controls="ui-id-7" aria-selected="true" aria-expanded="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-minus"></span>This is a tile for my Unordered List</h2>
+			<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" id="ui-id-7" aria-labelledby="ui-id-6" role="tabpanel" aria-hidden="false" style="display: block; height: 132px;">
+				<ul></ul>
+					<li>Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+					<li>Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+					<li>Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+					<li>Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+					<li>Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+			</div>
+		</div>
+		<div id="accordion-menu" class="ui-accordion ui-widget ui-helper-reset" role="tablist">	
+			<h2 class="ui-accordion-header ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top ui-state-focus" role="tab" id="ui-id-18" aria-controls="ui-id-19" aria-selected="true" aria-expanded="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-icon ui-icon-home"></span></h2>
+			<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" id="ui-id-19" aria-labelledby="ui-id-18" role="tabpanel" aria-hidden="false" style="display: block; height: 176px;">	
+				<ul id="menu" class="ui-menu ui-widget ui-widget-content ui-menu-icons" role="menu" tabindex="0">
+					<li class="ui-menu-item" id="ui-id-8" tabindex="-1" role="menuitem"><a href="./jQueryUI_files/jQueryUI.html"><span class="ui-icon ui-icon-arrowthick-1-n"></span>Home</a></li>
+					<li aria-haspopup="true" class="ui-menu-item" id="ui-id-9" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span>	
+						<a href="./jQueryUI_files/jQueryUI.html">About Us</a>
+						<ul class="ui-menu ui-widget ui-widget-content ui-front" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+							<li class="ui-menu-item" id="ui-id-10" tabindex="-1" role="menuitem"><a href="./jQueryUI_files/jQueryUI.html"><span class="ui-icon ui-icon-lightbulb"></span>Item1</a></li>
+							<li class="ui-menu-item" id="ui-id-11" tabindex="-1" role="menuitem"><a href="./jQueryUI_files/jQueryUI.html"><span class="ui-icon ui-icon-calculator"></span></a>Item2</li>
+						</ul>
+						
+					</li>
+					<li class="ui-menu-item" id="ui-id-12" tabindex="-1" role="menuitem"><a href="./jQueryUI_files/jQueryUI.html"><span class="ui-icon ui-icon-alert"></span>Alert</a></li>
+					<li aria-haspopup="true" class="ui-menu-item" id="ui-id-13" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span>
+						<a href="./jQueryUI_files/jQueryUI.html"><span class="ui-icon ui-icon-power"></span>Contact</a>
+						<ul class="ui-menu ui-widget ui-widget-content ui-front" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+							<li class="ui-menu-item" id="ui-id-14" tabindex="-1" role="menuitem"><a href="./jQueryUI_files/jQueryUI.html"><span class="ui-icon ui-icon-circle-plus"></span></a>Plus1</li>
+							<li class="ui-menu-item" id="ui-id-15" tabindex="-1" role="menuitem"><a href="./jQueryUI_files/jQueryUI.html"><span class="ui-icon ui-icon-refresh"></span></a>Refresh</li>
+						</ul>
+					</li>
+					<li class="ui-menu-item" id="ui-id-16" tabindex="-1" role="menuitem"><a href="./jQueryUI_files/jQueryUI.html"><span class="ui-icon ui-icon-pencil"></span></a>Pencil</li>
+					<li class="ui-menu-item" id="ui-id-17" tabindex="-1" role="menuitem"><a href="./jQueryUI_files/jQueryUI.html"><span class="ui-icon ui-icon-link"></span></a>Link</li>
+				</ul>
+			</div>	
+		</div>
+		<script src="./jQueryUI_files/jquery.js"></script>
+		<script src="./jQueryUI_files/jquery-ui.js"></script>
+		<script>
+
+		$('#message').dialog({
+			autoOpen: false,
+			modal: true,
+			minWidth: 400,
+			show: {
+				effect: "fade",
+				duartion: 1000
+			},
+			hide: {
+				effect: "fade",
+				duration: 500
+			},
+
+			/* Cancel and Ok are default buttons, but if you want to name your own, make sure you put it into quotes*/
+			buttons: {
+				Cancel: function() { 
+					$(this).dialog("close");
+					},
+				'Delete User Account' : function(){
+					alert('User Deleted');
+					$(this).dialog('close');
+				}	
+			}
+		});
+
+		$('#opener').on('click', function(){
+			$('#message').dialog('open');
+		});
+
+		$( "#faq" ).accordion({ 
+			active: 2, /* Sets which element is active on page load. Zero indexed like everything else in JavaScript */
+			collapsible: true, /* Allows you to close an open accordian without selecting another one */
+			animate: 100,
+			icons: { /* Adds icons to the headers and/or active header */
+				"header": "ui-icon-plus", 
+				"activeHeader": "ui-icon-minus" 
+			} 
+
+
+		});
+		$('#menu').menu();
+		$('#accordion-menu').accordion({
+			collapsible: true
+		});
+
+		</script><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-describedby="message" aria-labelledby="ui-id-1" style="display: none; position: absolute;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix ui-draggable-handle"><span id="ui-id-1" class="ui-dialog-title">This is my title</span><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" title="Close"><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">Close</span></button></div><div id="message" class="ui-dialog-content ui-widget-content"> <!--The title serves as the dialog box title -->
+			<p>This is a bunch of filler text. This is a bunch of filler text. This is a bunch of filler text. This is a bunch of filler text. This is a bunch of filler text.</p>
+		</div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button"><span class="ui-button-text">Cancel</span></button><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button"><span class="ui-button-text">Delete User Account</span></button></div></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div></div>
+	
+
+</body></html>
